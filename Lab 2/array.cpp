@@ -4,6 +4,8 @@
 
 using namespace std;
 
+// arr here will give u address of ele
+//arr[i] 
 
 void printMemArr(const int * arr, int size) { // void printMemArr(int arr[], int size )
 
