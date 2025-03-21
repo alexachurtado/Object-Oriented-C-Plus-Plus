@@ -24,10 +24,9 @@ int main() {
         if (skillChoice == 0 || skillChoice == 1) {
             mage.useSkill(&npc, to_string(skillChoice)); 
             mage.attack(&npc); 
-        } else {
+        } 
             cout << "Invalid choice, using default attack!" << endl;       
-        }
+        
     
-    
-    return 0;
 }
+
